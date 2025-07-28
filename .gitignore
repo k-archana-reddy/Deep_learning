@@ -1,0 +1,16 @@
+# Bytecode cache
+__pycache__/
+*.py[cod]
+
+# Django migrations except __init__.py
+**/migrations/
+!**/migrations/__init__.py
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# SQLite database
+*.sqlite3
